@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  background-color: #;
+  background-image: url('https://www.alura.com.br/assets/img/home/bg-home-main.1616501197.jpg');
+}
+
+header {
+  background-image: url('https://image.freepik.com/fotos-gratis/fundo-abstrato-de-codigo-binario_34629-652.jpg'); 
+  background-size: cover;
+  margin: 0;
+  border-radius: 10px;
+  height: 80px;
+  /*Define a altura max do header e depois manipula a imagem para subir com a propriedade transform*/
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+section h1{
+  margin: 0;
+  font-size: 45px;
+  color: #167bf7;
+  text-align: center;
+}
+
+h2{
+  color: #2a2a2b;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+section {
+  display: block;
+  max-width: 500px;
+  margin-top: 100px;
+  padding: 15px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+section#alura {
+  display: block;
+  max-width: 500px;
+  margin-top: 0;
+  padding: 15px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+div {
+  max-widht: 500px;
+  margin: 20px 0 10px 0;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #808080;
+  text-align: left;
+  background-color: #dddddd;
+  -webkit-box-shadow: 0px 0px 10px 2px #000000; 
+box-shadow: 0px 0px 10px 2px #000000;
+}
+
+.si {
+  border-radius: 50%;
+  max-width:150px;
+  max-height:150px;
+  width: auto;
+  display: flex;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50%); /**/
+  border: 8px solid #eeeeee;
+}
+
+img {
+  width: auto;
+  display: flex;
+  border-radius: 0%;
+  max-width:120px;
+  max-height:120px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style: none;
+}
